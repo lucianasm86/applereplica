@@ -1,8 +1,28 @@
-/* Your CSS styling goes here. For example:
-
-h1 {
-	color: pink;
-	font-size: 50px;
+/* NAVIGATION BAR */
+body {
+    margin: 0;
 }
 
-*/
+@font-face {
+    font-family: lucida;
+    src: url('../fonts/LucidaGrande.ttf');
+}
+
+div.navigation {
+    background-color: #000000cc;
+}
+
+.navigation ul {
+    margin: 0;
+    height: 40px;
+    text-align: center;
+}
+
+.navigation li {
+    display: inline-block;
+    color: #ffffff;
+    font-family: helvetica;
+    font-size: 14px;
+    margin-top: 11px;
+    padding-right: 68px;
+}
