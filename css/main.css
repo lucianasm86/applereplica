@@ -9,20 +9,41 @@ body {
 }
 
 div.navigation {
-    background-color: #000000cc;
+    background-color: #323232;
+    position: fixed;
+    width: 100%;
 }
 
 .navigation ul {
     margin: 0;
-    height: 40px;
+    height: 45px;
     text-align: center;
 }
 
 .navigation li {
     display: inline-block;
-    color: #ffffff;
-    font-family: helvetica;
+    font-family: arial;
     font-size: 14px;
-    margin-top: 11px;
-    padding-right: 68px;
+    margin-top: 10px;
+    padding-right: 70px;
+}
+
+.navigation ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.fa-apple {
+    font-size: 20px;
+}
+
+/* a:hover {
+    background-color: pink;
+} */
+/* MAIN PRODUCTS */
+main {
+    display: inline-block;
+    padding-top: 30px;
+    text-align: center;
+    background-image: url('https://www.apple.com/v/home/do/images/heroes/iphone-x/iphone_x_largetall_2x.jpg');
 }
